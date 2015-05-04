@@ -1,7 +1,6 @@
 ﻿@import url('http://fonts.googleapis.com/css?family=Lobster');
 @import url('http://fonts.googleapis.com/css?family=Chewy');
 
-
 body
 {
 width:1024px;
@@ -127,6 +126,7 @@ text-align: center;
 #izbornik .meni li a:hover
 {
 font-weight:bold;
+cursor:pointer;
 }
 
 h2
@@ -291,7 +291,7 @@ width:180px;
 margin:0px 0px 10px 20px;
 }
 
-#uzvicnik1,#uzvicnik2,#uzvicnik3,#uzvicnik4
+#uzvicnik1,#uzvicnik2,#uzvicnik3,#uzvicnik4,#uzvicnik5,#uzvicnik6
 {
 vertical-align:top;
 margin:0px 0px 0px 0px;
@@ -303,7 +303,7 @@ top:3px;
 visibility:hidden;
 }
 
-#greskaImePrezime,#greskaEmail1,#greskaEmail2,#greskaPoruka
+#greskaImePrezime,#greskaEmail1,#greskaEmail2,#greskaPoruka,#greskaGrad,#greskaPostanskiBroj
 {
 width:300px;
 margin:0px 0px 10px 10px;
@@ -344,6 +344,8 @@ font-size:20px;
 {
 display:none;
 position:absolute;
+top:44px;
+left:520px;
 width:auto;
 height:auto;
 }
