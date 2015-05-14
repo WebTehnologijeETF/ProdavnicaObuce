@@ -74,8 +74,11 @@ function webServis()
 		   		valServis=true;			
 		   }
 		}
-		else if (ajax.readyState === 4 && ajax.status === 404)
-			alert("Greska!"); 	
+		else
+		{
+			valServis=false;
+			alert("Greška pri korištenju servisa!"); 	
+		}
 	}
 	ajax.open("GET", "http://zamger.etf.unsa.ba/wt/postanskiBroj.php?mjesto=" + grad + "&postanskiBroj=" + pbroj, true);
 	ajax.send();

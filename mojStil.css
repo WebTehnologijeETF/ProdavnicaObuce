@@ -164,7 +164,7 @@ overflow:auto;
 border-bottom:3px solid black;
 margin:0;
 width:100%;
-height:180px;
+height:210px;
 }
 
 .novost:hover 
@@ -197,6 +197,8 @@ margin:10px;
 
 .detaljnije 
 {
+position:relative;
+top:50px;
 text-decoration: none;
 background-color: #0020C2;
 color:#FFFFFF;
@@ -282,6 +284,13 @@ font-weight:bold;
 
 /* ------ ( Kontakt forma ) ---------------------- */
 
+iframe
+{
+width:427;
+height:255;
+frameborder:0;
+}
+
 div
 {
 vertical-align:top;
@@ -310,6 +319,7 @@ margin:0px 0px 10px 10px;
 color:red;
 }
 
+
 input
 {
 width:172px;
@@ -328,7 +338,7 @@ max-width:172px;
 max-height:100px;
 }
 
-button
+button, #submitButton
 {
 float:left;
 background-color: #0020C2;
@@ -342,7 +352,6 @@ font-size:20px;
 
 #podmeni 
 {
-display:none;
 position:absolute;
 top:44px;
 left:520px;
@@ -375,4 +384,41 @@ text-decoration: none;
 #podmeni ul  li:hover 
 {
 background-color: #EB2112;
+}
+
+.sakrivenidiv
+{
+display:none;
+}
+
+.vidljividiv
+{
+display:block;
+}
+
+#kontaktPrikaz{
+    width: 400px;
+}
+
+.labelaIspis{
+    text-align: right;
+    display: inline-block;
+    width: 150px;
+}
+
+.pregled{
+    margin-left: 20px;
+    border: 0;
+    background-color: transparent;
+}
+
+#submitButton{
+    width: 20%;
+    margin-left: 40%;
+}
+
+#vijestSlika{
+    width: 80%;
+    height: 30%;
+    margin-left: 10%
 }
